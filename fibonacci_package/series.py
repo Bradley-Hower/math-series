@@ -34,6 +34,9 @@ def lucas(n):
 
 
 def sum_series(n, first=0, second=1):
+  """A series of numbers where the subsequent number is determined according to Lucas or Fibonacci. See above two functions for functioning. Which functioning is dependent on options added. Defaults run Fibonacci, set at 0 and 1 for the first and second in the series respectively, in accordance with Fibonacci function above. Options entered as 2 and 1 for the first and second in the series respectively, work in accordance with Lucas series. 
+  """
+
   if n < 0:
     return "Sorry, only positives"
   if n == 0:
