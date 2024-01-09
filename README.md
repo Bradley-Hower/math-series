@@ -10,10 +10,8 @@ python3 series.py
 
 ## Tests
 
-python3 tests/test_series.py
+run via pytest. To install, ```pip install pytest```
 
 Any tests of note?
 
-
-
-Describe any tests that you did not complete, skipped, etc
+Three series of tests, each series for each function. Fibonacci, Lucas and the sum_series, which combines the two functions to work within one function, dependent on options. Tests are run via pytest. Tests test a series of numbers to ensure functionality: zero, one, two, and seven.
